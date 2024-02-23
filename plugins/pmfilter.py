@@ -1778,6 +1778,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/inoxreq'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/inoxreq')
         ],[
+            InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='text'),
             InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/inoxreq')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
